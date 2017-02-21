@@ -14,3 +14,7 @@ sudo yum install gcc gcc-c++
 make
 sudo make install
 node --version
+
+npm install express
+npm install mysql
+npm install body-parser --save
