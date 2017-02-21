@@ -21,16 +21,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 
 
-// app.post('/api/users', function(req, res) {
-//     var user_id = req.body.id;
-//     var token = req.body.token;
-//     var geo = req.body.geo;
-
-//     res.send(user_id + ' ' + token + ' ' + geo);
-// });
-
 
 // get all user's contacts
+
 app.get('/get_contacts', function(req, res) {
 
 	con.connect(function(err){
