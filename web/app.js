@@ -42,9 +42,9 @@ app.get('/get_contacts', function(req, res) {
 	  res.send(rows);
 	});
 
-	con.end(function(err) {
-		console.log('Connection end');
-	});
+	// con.end(function(err) {
+	// 	console.log('Connection end');
+	// });
 
 	});
 
