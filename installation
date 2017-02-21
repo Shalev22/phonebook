@@ -4,3 +4,13 @@ wget https://dev.mysql.com/get/mysql57-community-release-el7-9.noarch.rpm
 md5sum mysql57-community-release-el7-9.noarch.rpm
 sudo rpm -ivh mysql57-community-release-el7-9.noarch.rpm
 sudo yum install mysql-server
+
+install nodeJS
+---------------------
+wget http://nodejs.org/dist/v0.10.30/node-v0.10.30.tar.gz
+tar xzvf node-v* && cd node-v*
+sudo yum install gcc gcc-c++
+./configure
+make
+sudo make install
+node --version
